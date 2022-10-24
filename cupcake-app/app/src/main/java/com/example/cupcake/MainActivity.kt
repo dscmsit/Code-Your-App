@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         super.onCreate(savedInstanceState, persistentState)
         setContentView(R.layout.activity_main)
 
+        //nav graph is a place where aur fragments are organised and used
+
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
