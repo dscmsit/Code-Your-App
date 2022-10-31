@@ -23,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
     fun animationSetup(){
         val handler = Handler()
         handler.postDelayed(Runnable {
-
+            //Intent for activty
             val intent = Intent(this@SplashScreen, MainActivity::class.java)
             startActivity(intent)
             finish()
