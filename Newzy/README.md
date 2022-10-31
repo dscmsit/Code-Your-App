@@ -13,10 +13,10 @@
  
  ## Android Development Features 🛠
  
- - RecyclerView
+ - RecyclerView with driftUtil
  - StackCard View
  - Networking with Retrofit
- - Webview
+ - Webview with android libary
  - Splash Screen with Animation
  - Use of Coroutines
  
