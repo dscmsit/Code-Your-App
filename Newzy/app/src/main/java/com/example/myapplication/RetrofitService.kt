@@ -10,7 +10,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
-
+//Interface which will communicate with Retorfit instance
 const val apikey = "95b6d8836ab74b2386fe24441682c94f"
 interface RetrofitService {
 
